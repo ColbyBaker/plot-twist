@@ -1,0 +1,45 @@
+-- Found Git: /usr/bin/git (found version "2.39.3 (Apple Git-145)") 
+-- Component directory /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_coex does not contain a CMakeLists.txt file. No component will be added
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/colbybaker/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/colbybaker/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/colbybaker/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/colbybaker/esp-adf-env/nfc-test/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/colbybaker/.espressif/python_env/idf5.0_py3.11_env/bin/python (found version "3.11.4") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "plot-twist" version: 1
+-- Adding linker script /Users/colbybaker/esp-adf-env/nfc-test/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-pn532 esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/app_trace /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/app_update /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bootloader /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bootloader_support /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bt /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/cmock /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/console /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/cxx /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/driver /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/efuse /Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532 /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp-tls /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_adc /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_app_format /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_common /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_eth /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_event /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_gdbstub /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_hid /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_http_client /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_http_server /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_https_ota /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_https_server /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_hw_support /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_lcd /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_local_ctrl /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_netif /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_partition /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_phy /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_pm /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_psram /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_ringbuf /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_system /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_timer /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_wifi /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/espcoredump /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esptool_py /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/fatfs /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/freertos /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/hal /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/heap /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/http_parser /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/idf_test /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/ieee802154 /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/json /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/log /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/lwip /Users/colbybaker/esp-adf-env/nfc-test/main /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/mbedtls /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/mqtt /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/newlib /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/nvs_flash /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/openthread /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/partition_table /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/perfmon /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/protobuf-c /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/protocomm /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/pthread /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/sdmmc /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/soc /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/spi_flash /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/spiffs /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/tcp_transport /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/ulp /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/unity /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/usb /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/vfs /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/wear_levelling /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/wifi_provisioning /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/wpa_supplicant /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/colbybaker/esp-adf-env/nfc-test/build

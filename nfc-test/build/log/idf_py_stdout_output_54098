@@ -1,0 +1,46 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cd /Users/colbybaker/esp-adf-env/nfc-test/build/bootloader/esp-idf/esptool_py && /Users/colbybaker/.espressif/python_env/idf5.0_py3.11_env/bin/python /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/colbybaker/esp-adf-env/nfc-test/build/bootloader/bootloader.bin
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[2/10] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/nfc-test.cpp.obj
+[3/10] Building CXX object esp-idf/esp-pn532/CMakeFiles/__idf_esp-pn532.dir/PN532_SPI.cpp.obj
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp: In member function 'virtual int8_t PN532_SPI::writeCommand(const uint8_t*, uint8_t, const uint8_t*, uint8_t)':
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:104:5: warning: missing initializer for member 'spi_transaction_t::flags' [-Wmissing-field-initializers]
+  104 |     };
+      |     ^
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:104:5: warning: missing initializer for member 'spi_transaction_t::cmd' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:104:5: warning: missing initializer for member 'spi_transaction_t::addr' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:104:5: warning: missing initializer for member 'spi_transaction_t::rxlength' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:104:5: warning: missing initializer for member 'spi_transaction_t::user' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:104:5: warning: missing initializer for member 'spi_transaction_t::<anonymous>' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp: In member function 'bool PN532_SPI::isReady()':
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:250:5: warning: missing initializer for member 'spi_transaction_t::flags' [-Wmissing-field-initializers]
+  250 |     };
+      |     ^
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:250:5: warning: missing initializer for member 'spi_transaction_t::cmd' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:250:5: warning: missing initializer for member 'spi_transaction_t::addr' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:250:5: warning: missing initializer for member 'spi_transaction_t::rxlength' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:250:5: warning: missing initializer for member 'spi_transaction_t::user' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp: In member function 'int8_t PN532_SPI::readAckFrame()':
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:285:5: warning: missing initializer for member 'spi_transaction_t::flags' [-Wmissing-field-initializers]
+  285 |     };
+      |     ^
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:285:5: warning: missing initializer for member 'spi_transaction_t::cmd' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:285:5: warning: missing initializer for member 'spi_transaction_t::addr' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:285:5: warning: missing initializer for member 'spi_transaction_t::rxlength' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:285:5: warning: missing initializer for member 'spi_transaction_t::user' [-Wmissing-field-initializers]
+/Users/colbybaker/esp-adf-env/nfc-test/components/esp-pn532/PN532_SPI.cpp:273:13: warning: unused variable 'ackBuf' [-Wunused-variable]
+  273 |     uint8_t ackBuf[sizeof(PN532_ACK)];
+      |             ^~~~~~
+[4/10] Linking C static library esp-idf/esp-pn532/libesp-pn532.a
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Building C object CMakeFiles/plot-twist.elf.dir/project_elf_src_esp32.c.obj
+[8/10] Linking CXX executable plot-twist.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/colbybaker/esp-adf-env/nfc-test/build/plot-twist.bin
+[10/10] cd /Users/colbybaker/esp-adf-env/nfc-test/build/esp-idf/esptool_py && /Users/colbybaker/.espressif/python_env/idf5.0_py3.11_env/bin/python /Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/colbybaker/esp-adf-env/nfc-test/build/partition_table/partition-table.bin /Users/colbybaker/esp-adf-env/nfc-test/build/plot-twist.bin
+plot-twist.bin binary size 0x34320 bytes. Smallest app partition is 0x100000 bytes. 0xcbce0 bytes (80%) free.

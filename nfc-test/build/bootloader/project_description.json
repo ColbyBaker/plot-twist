@@ -1,0 +1,22 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/colbybaker/esp-adf-env/nfc-test/build/bootloader",
+    "config_file":        "/Users/colbybaker/esp-adf-env/nfc-test/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.0-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/efuse/Kconfig;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_common/Kconfig;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_hw_support/Kconfig;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_system/Kconfig;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/freertos/Kconfig;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/hal/Kconfig;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/log/Kconfig;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/newlib/Kconfig;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bootloader/Kconfig.projbuild;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_app_format/Kconfig.projbuild;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bootloader", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bootloader_support", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/efuse", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_app_format", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_common", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_hw_support", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_rom", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esp_system", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/esptool_py", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/freertos", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/hal", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/log", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bootloader/subproject/main", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/newlib", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/partition_table", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/soc", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/spi_flash", "/Users/colbybaker/esp-adf-env/esp-adf/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
